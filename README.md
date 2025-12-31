@@ -219,6 +219,93 @@ This project is licensed under the Apache License 2.0.
 
 You are free to use, modify, and distribute this software in compliance with the license terms.
 
+🔐 Open Source Security Model
+
+Pentarchon Cybersecurity follows a governance-first open-source security model designed to maximize trust, auditability, and resilience without exposing operational risk.
+
+🧠 Core Security Principle
+
+Security must not depend on secrecy of implementation.
+Pentarchon follows established cryptographic and security doctrine where only secrets are protected — not the system design itself.
+
+This approach enables independent verification while maintaining strong defensive posture.
+
+⸻
+
+🔓 What Is Open
+
+The following components are intentionally open to enable transparency, auditability, and collaboration:
+   •   System architecture and module design
+   •   Governance logic and decision boundaries
+   •   Detection algorithms and orchestration framework
+   •   Policy enforcement mechanisms
+   •   Security workflows and response logic
+
+Open visibility allows:
+   •   Independent security audits
+   •   Faster vulnerability discovery
+   •   Regulatory and compliance validation
+   •   Community-driven hardening
+
+⸻
+
+🔑 What Is NOT Open
+
+To prevent operational exposure, the following elements are never public:
+   •   Cryptographic keys and secrets
+   •   Runtime configurations and environment state
+   •   Production model weights (enterprise deployments)
+   •   Live threat intelligence feeds
+   •   Deception grid layouts and honeypot topology
+   •   Response timing and adaptive thresholds
+
+Attackers may see the rules — but never the keys, state, or timing.
+
+⸻
+
+🛡️ Defense-in-Depth Controls
+
+Pentarchon enforces multiple safeguards to protect open deployments:
+   •   Zero-trust secret management
+   •   Hardware-backed key storage (HSM / TPM / enclave support)
+   •   Role-based access control (RBAC)
+   •   Signed updates and integrity verification
+   •   Immutable audit logs
+
+⸻
+
+⚖️ Governance & Oversight
+
+All automated security actions in Pentarchon are:
+   •   Logged and explainable
+   •   Policy-bounded and reversible
+   •   Auditable for compliance
+   •   Subject to human override
+
+This prevents uncontrolled automation while preserving rapid response capability.
+
+⸻
+
+🌍 Why Open Source Improves Security
+
+Open-source security enables:
+   •   Continuous peer review
+   •   Faster patch cycles
+   •   Reduced vendor lock-in
+   •   Increased institutional trust
+
+Many of the world’s most secure systems operate under this model, including operating systems, cryptographic libraries, and global internet infrastructure.
+
+⸻
+
+🧭 Design Philosophy
+
+Closed-source security protects vendors.
+Open-source security protects users.
+
+Pentarchon Cybersecurity is open-source because trust, verification, and governance are essential for autonomous cyber defense at scale.
+
+
 ⸻
 
 👤 Author & Maintainer
